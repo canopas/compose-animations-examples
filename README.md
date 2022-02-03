@@ -1,5 +1,7 @@
 # Jetpack-compose-animations-examples
 
+<img alt="Badge" height="20px" src="https://androidweekly.net/issues/issue-503/badge">
+
 <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/demo.gif" height="540" />
 
 This repository consists of 4 animations:
