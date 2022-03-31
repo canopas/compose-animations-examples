@@ -16,3 +16,5 @@ For detailed information about implementation checkout this [article](https://bl
   6. **Circle offset animation**  -  Two circles will move left, right and they will change their colors and size while moving
   7. **Pacman animation**   -  Pacman will open and close his mouth repeatedly.
   8. **Arc rotation animation**  -  Two arcs will rotate continuously in clockwise direction with center circle animation
+
+For detailed information about implementation checkout this [article](https://medium.com/p/eb76cc28fbb6/edit)
