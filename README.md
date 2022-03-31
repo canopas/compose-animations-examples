@@ -13,6 +13,6 @@ This repository consists of total 8 animations:
 For detailed information about implementation checkout this [article](https://blog.canopas.com/animations-in-jetpack-compose-with-examples-48307ba9dff1)
 
   5. **Twin circle animation**   -  Two cicles will have zoom in and out effects simultaneously
-  6. **Circle offset animation**  -  Two circles will move left, right and they will change their colors and size whhile moving
+  6. **Circle offset animation**  -  Two circles will move left, right and they will change their colors and size while moving
   7. **Pacman animation**   -  Pacman will open and close his mouth repeatedly.
   8. **Arc rotation animation**  -  Two arcs will rotate continuously in clockwise direction with center circle animation
