@@ -2,7 +2,8 @@
 
 <img alt="Badge" height="20px" src="https://androidweekly.net/issues/issue-503/badge">
 
-<img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/demo.gif" height="540" />              <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/coolAnimations.gif" height="540" />
+<img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/demo.gif" height="540" />              
+<img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/coolAnimations.gif" height="540" />
 
 This repository consists of 4 animations:
   1. **Stepper animation**   -  Card that will flip right or left depending on where you tap
