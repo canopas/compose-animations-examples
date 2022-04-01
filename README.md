@@ -17,4 +17,4 @@ For detailed information about implementation checkout this [article](https://bl
   7. **Pacman animation**   -  Pacman will open and close his mouth repeatedly.
   8. **Arc rotation animation**  -  Two arcs will rotate continuously in clockwise direction with center circle animation
 
-For detailed information about implementation checkout this [article](https://medium.com/p/eb76cc28fbb6/edit)
+For detailed information about implementation checkout this [article](https://blog.canopas.com/progress-animations-in-jetpack-compose-with-examples-eb76cc28fbb6)
