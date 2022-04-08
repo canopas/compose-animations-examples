@@ -24,7 +24,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.canopas.composeanimations.animations.RotatingSquare
+import com.canopas.composeanimations.animations.RotatingCircle
 import com.canopas.composeanimations.ui.theme.ComposeAnimationsTheme
 import com.canopas.composeanimations.ui.theme.ThemeColor
 import kotlinx.coroutines.delay
@@ -45,7 +45,16 @@ class MainActivity : ComponentActivity() {
                             .fillMaxSize()
                             .padding(50.dp)
                     ) {
-                        RotatingSquare()
+
+//                        StepperAnimation(modifier = Modifier.align(CenterHorizontally))
+//                        Spacer(modifier = Modifier.height(25.dp))
+//                        HeartAnimation(modifier = Modifier.align(CenterHorizontally))
+//                        Spacer(modifier = Modifier.height(75.dp))
+//                        ProgressAnimation(modifier = Modifier.align(CenterHorizontally))
+//                        Spacer(modifier = Modifier.height(125.dp))
+//                        WavesAnimation(modifier = Modifier.align(CenterHorizontally))
+
+                        RotatingCircle()
                     }
                 }
             }
