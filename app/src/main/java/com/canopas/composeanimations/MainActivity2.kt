@@ -4,41 +4,16 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.animation.animateColor
-import androidx.compose.animation.core.AnimationSpec
-import androidx.compose.animation.core.FastOutLinearInEasing
-import androidx.compose.animation.core.FastOutSlowInEasing
-import androidx.compose.animation.core.InfiniteTransition
-import androidx.compose.animation.core.LinearEasing
-import androidx.compose.animation.core.LinearOutSlowInEasing
-import androidx.compose.animation.core.RepeatMode
-import androidx.compose.animation.core.animate
-import androidx.compose.animation.core.animateFloat
-import androidx.compose.animation.core.infiniteRepeatable
-import androidx.compose.animation.core.rememberInfiniteTransition
-import androidx.compose.animation.core.spring
-import androidx.compose.animation.core.tween
+import androidx.compose.animation.core.*
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.State
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -50,6 +25,7 @@ import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.unit.dp
 import com.canopas.composeanimations.ui.theme.ComposeAnimationsTheme
 import com.canopas.composeanimations.ui.theme.ThemeColor
+import com.canopas.composeanimations.utils.animateValues
 
 class MainActivity2: ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -78,7 +54,7 @@ fun CoolAnimations() {
     ) {
 
         TwinCircleAnimation(infiniteTransition)
-        CircleOffsetAnimation(infiniteTransition)
+        CircleOffsetAnimation()
         PacmanAnimation(infiniteTransition)
         ArcRotationAnimation(infiniteTransition)
     }
@@ -125,7 +101,9 @@ fun TwinCircleAnimation(infiniteTransition: InfiniteTransition) {
 }
 
 @Composable
-fun CircleOffsetAnimation(infiniteTransition: InfiniteTransition) {
+fun CircleOffsetAnimation() {
+    val infiniteTransition = rememberInfiniteTransition()
+
     val easing = LinearOutSlowInEasing
 
     val color by infiniteTransition.animateColor(
@@ -183,39 +161,6 @@ fun CircleOffsetAnimation(infiniteTransition: InfiniteTransition) {
             center = Offset(offsetX + this.center.x, this.center.y)
         )
     }
-}
-
-@Composable
-fun animateValues(
-    values: List<Float>,
-    animationSpec: AnimationSpec<Float> = spring(),
-): State<Float> {
-
-    // 1. Create the groups zipping with next entry
-    val groups by rememberUpdatedState(newValue = values.zipWithNext())
-    // 2. Start the state with the first value
-    val state = remember { mutableStateOf(values.first()) }
-
-    LaunchedEffect(key1 = groups) {
-        val (_, setValue) = state
-        // Start the animation from 0 to groups quantity
-        animate(
-            initialValue = 0f,
-            targetValue = groups.size.toFloat(),
-            animationSpec = animationSpec,
-        ) { frame, _ ->
-            // Get which group is being evaluated
-            val integerPart = frame.toInt()
-            val (initialValue, finalValue) = groups[frame.toInt()]
-            // Get the current "position" from the group animation
-            val decimalPart = frame - integerPart
-            // Calculate the progress between the initial and final value
-            setValue(
-                initialValue + (finalValue - initialValue) * decimalPart
-            )
-        }
-    }
-    return state
 }
 
 @Composable

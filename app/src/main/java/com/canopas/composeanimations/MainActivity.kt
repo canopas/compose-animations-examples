@@ -9,7 +9,6 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.Icon
-import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.material.icons.Icons
@@ -25,6 +24,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.canopas.composeanimations.animations.RotatingSquare
 import com.canopas.composeanimations.ui.theme.ComposeAnimationsTheme
 import com.canopas.composeanimations.ui.theme.ThemeColor
 import kotlinx.coroutines.delay
@@ -45,13 +45,7 @@ class MainActivity : ComponentActivity() {
                             .fillMaxSize()
                             .padding(50.dp)
                     ) {
-                        StepperAnimation(modifier = Modifier.align(CenterHorizontally))
-                        Spacer(modifier = Modifier.height(25.dp))
-                        HeartAnimation(modifier = Modifier.align(CenterHorizontally))
-                        Spacer(modifier = Modifier.height(75.dp))
-                        ProgressAnimation(modifier = Modifier.align(CenterHorizontally))
-                        Spacer(modifier = Modifier.height(125.dp))
-                        WavesAnimation(modifier = Modifier.align(CenterHorizontally))
+                        RotatingSquare()
                     }
                 }
             }
