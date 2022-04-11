@@ -18,7 +18,7 @@ import androidx.compose.ui.unit.dp
 import com.canopas.composeanimations.ui.theme.ThemeColor
 
 @Composable
-fun ClockLoadingBar() {
+fun ClockLoading() {
 
     val infiniteTransition = rememberInfiniteTransition()
 
