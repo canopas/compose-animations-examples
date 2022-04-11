@@ -78,7 +78,7 @@ For bugs, questions and discussions please use the [Github Issues](https://githu
 
 # Credits
 
-Intro showcaseview is owned and maintained by the [Canopas team](https://canopas.com/). You can follow them on Twitter at [@canopassoftware](https://twitter.com/canopassoftware) for project updates and releases.
+This repository owned and maintained by the [Canopas team](https://canopas.com/). You can follow them on Twitter at [@canopassoftware](https://twitter.com/canopassoftware) for project updates and releases.
 
   
  # Licence
