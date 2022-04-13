@@ -6,63 +6,63 @@
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/stepperAnim.gif" width="300px" height="300px">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/stepperAnim.gif" width="250px" height="250px">
       <br />
       Stepper animation
     </td>
     <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/heartAnim.gif" width="300px" height="300px">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/heartAnim.gif" width="250px" height="250px">
       <br />
       Jumping Heart
     </td>
     <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/progress_animation.gif" width="300px" height="300px">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/progress_animation.gif" width="250px" height="250px">
       <br />
       Progress Dots
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/waveAnim.gif" width="300px" height="300px">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/waveAnim.gif" width="250px" height="250px">
       <br />
       Wave
     </td>
     <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/twinCircle.gif" width="300px" height="300px">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/twinCircle.gif" width="250px" height="250px">
       <br />
       Twin circle Scale
     </td>
     <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/pacman.gif" width="300px" height="300px">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/pacman.gif" width="250px" height="250px">
       <br />
       Pacman
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/circleOffset.gif" width="300px" height="300px">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/circleOffset.gif" width="250px" height="250px">
       <br />
       TwinCircle Transition
     </td>   
      <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/arcRotation.gif" width="300px" height="300px">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/arcRotation.gif" width="250px" height="250px">
       <br />
       Arc rotation
     </td>    
     <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/rotatingSquare.gif" width="300px" height="300px">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/rotatingSquare.gif" width="250px" height="250px">
       <br />
       Rotating Square
     </td>  
   </tr>
   <tr>
      <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/clockAnim.gif" width="300px" height="300px">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/clockAnim.gif" width="250px" height="250px">
       <br />
       Clock
     </td> 
      <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/rotatinCircle.gif" width="300px" height="300px">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/rotatinCircle.gif" width="250px" height="250px">
       <br />
       Rotating Circle
     </td>
