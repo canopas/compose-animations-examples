@@ -6,61 +6,63 @@
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/strepper_animation.gif" width="100px" height="100px">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/stepperAnim.gif" width="300px" height="300px">
       <br />
       Stepper animation
     </td>
     <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/jumping_heart_animation.gif" width="100px" height="100px">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/heartAnim.gif" width="300px" height="300px">
       <br />
       Jumping Heart
     </td>
     <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/dote_animation.gif" width="100px" height="100px">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/progress_animation.gif" width="300px" height="300px">
       <br />
       Progress Dots
     </td>
+  </tr>
+  <tr>
     <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/wave_animation.gif" width="100px" height="100px">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/waveAnim.gif" width="300px" height="300px">
       <br />
       Wave
     </td>
     <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/circle_scale.gif" width="100px" height="100px">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/twinCircle.gif" width="300px" height="300px">
       <br />
-      Twin circle
+      Twin circle Scale
     </td>
-  </tr>
-  <tr>
     <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/pacman.gif" width="100px" height="100px">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/pacman.gif" width="300px" height="300px">
       <br />
       Pacman
     </td>
+  </tr>
+  <tr>
     <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/circle_transition.gif" width="100px" height="100px">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/circleOffset.gif" width="300px" height="300px">
       <br />
       TwinCircle Transition
-    </td>
+    </td>   
      <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/circle_arc.gif" width="100px" height="100px">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/arcRotation.gif" width="300px" height="300px">
       <br />
       Arc rotation
-    </td>
+    </td>    
     <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/rotating_square.gif" width="100px" height="100px">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/rotatingSquare.gif" width="300px" height="300px">
       <br />
       Rotating Square
-    </td>
-     <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/clock_animation.gif" width="100px" height="100px">
-      <br />
-      Clock
-    </td>
+    </td>  
   </tr>
   <tr>
      <td align="center">
-      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/rotating_circle.gif" width="100px" height="100px">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/clockAnim.gif" width="300px" height="300px">
+      <br />
+      Clock
+    </td> 
+     <td align="center">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/rotatinCircle.gif" width="300px" height="300px">
       <br />
       Rotating Circle
     </td>
