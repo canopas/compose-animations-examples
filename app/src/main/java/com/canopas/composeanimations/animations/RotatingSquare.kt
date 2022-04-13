@@ -64,7 +64,7 @@ fun RotatingSquare() {
     ) {
         Box(
             modifier = Modifier
-                .size(60.dp)
+                .size(100.dp)
                 .graphicsLayer {
                     rotationX = xRotation
                     rotationY = yRotation

@@ -65,7 +65,7 @@ fun RotatingCircle() {
     ) {
         Box(
             modifier = Modifier
-                .size(80.dp)
+                .size(100.dp)
                 .graphicsLayer {
                     rotationX = xRotation
                     rotationY = yRotation

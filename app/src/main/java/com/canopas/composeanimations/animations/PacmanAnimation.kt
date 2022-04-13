@@ -55,7 +55,7 @@ fun PacmanAnimation() {
         Canvas(
             modifier = Modifier
                 .padding(top = 16.dp)
-                .size(80.dp)
+                .size(100.dp)
 
         ) {
             drawArc(
