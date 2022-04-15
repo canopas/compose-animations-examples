@@ -66,6 +66,11 @@
       <br />
       Rotating Circle
     </td>
+    <td align="center">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/sqaure_fill_loader.gif" width="250px" height="250px">
+      <br />
+      Sqare fill
+    </td>
   </tr>
 <table>
   
