@@ -10,6 +10,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.scale
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
@@ -34,17 +35,17 @@ fun PreviewThreeBounceAnimation() {
 fun ThreeBounceAnimation() {
 
     val dots = listOf(
-        remember { Animatable(0f) },
-        remember { Animatable(0f) },
-        remember { Animatable(0f) },
+        remember { Animatable(0.2f) },
+        remember { Animatable(0.2f) },
+        remember { Animatable(0.2f) },
     )
 
     dots.forEachIndexed { index, animatable ->
         LaunchedEffect(animatable) {
-            delay(index * 100L)
+            delay(index * 200L)
             animatable.animateTo(
                 targetValue = 1f, animationSpec = infiniteRepeatable(
-                    animation = tween(500, easing = FastOutLinearInEasing),
+                    animation = tween(600, easing = FastOutLinearInEasing),
                     repeatMode = RepeatMode.Reverse,
                 )
             )
@@ -59,17 +60,15 @@ fun ThreeBounceAnimation() {
         horizontalArrangement = Arrangement.Center
     ) {
         dys.forEachIndexed { index, dy ->
+
             Box(
                 Modifier
-                    .size(25.dp)
-                    .scale(dy),
-            ) {
-                Box(
-                    Modifier
-                        .fillMaxSize()
-                        .background(color = Color.White, shape = CircleShape)
-                )
-            }
+                    .size(30.dp)
+                    .scale(dy)
+                    .alpha(dy)
+                    .background(color = Color.White, shape = CircleShape)
+            )
+
         }
     }
 }
