@@ -72,6 +72,13 @@
       Sqare fill
     </td>
   </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/three_bounce_anim.gif" width="250px" height="250px">
+      <br />
+      Three Bounce
+    </td>
+  </tr>
 <table>
   
   
