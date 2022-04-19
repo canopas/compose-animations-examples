@@ -78,6 +78,11 @@
       <br />
       Three Bounce
     </td>
+     <td align="center">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/rotateDot.gif" width="250px" height="250px">
+      <br />
+      Rotate Dot
+    </td>
   </tr>
 <table>
   
