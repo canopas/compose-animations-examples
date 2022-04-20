@@ -83,6 +83,12 @@
       <br />
       Rotate Dot
     </td>
+     </td>
+     <td align="center">
+      <img src="https://github.com/canopas/Jetpack-compose-animations-examples/blob/main/gif/RotateDotTwo.gif" width="250px" height="250px">
+      <br />
+      Rotate Two Dots
+    </td>
   </tr>
 <table>
   
