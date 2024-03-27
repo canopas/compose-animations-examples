@@ -59,7 +59,7 @@ fun ThreeBounceAnimation() {
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.Center
     ) {
-        dys.forEachIndexed { index, dy ->
+        dys.forEachIndexed { _, dy ->
 
             Box(
                 Modifier
