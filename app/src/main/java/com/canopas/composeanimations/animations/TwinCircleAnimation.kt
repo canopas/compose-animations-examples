@@ -34,7 +34,7 @@ fun TwinCircleAnimation() {
 
     val twinCircleAnimation by infiniteTransition.animateFloat(
         initialValue = 1f,
-        targetValue = 7f,
+        targetValue = 9f,
         animationSpec = infiniteRepeatable(
             animation = tween(1500, easing = FastOutSlowInEasing),
             repeatMode = RepeatMode.Reverse

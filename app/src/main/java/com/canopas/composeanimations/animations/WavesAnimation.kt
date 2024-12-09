@@ -12,7 +12,6 @@ import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Alignment.Companion.Center
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -71,7 +70,7 @@ fun WavesAnimation() {
             Box(
                 Modifier
                     .size(50.dp)
-                    .align(Alignment.Center)
+                    .align(Center)
                     .graphicsLayer {
                         scaleX = dy * 4 + 1
                         scaleY = dy * 4 + 1
@@ -90,7 +89,7 @@ fun WavesAnimation() {
         Box(
             Modifier
                 .size(50.dp)
-                .align(Alignment.Center)
+                .align(Center)
                 .background(color = Color.White, shape = CircleShape)
         ) {
             Icon(
@@ -99,7 +98,7 @@ fun WavesAnimation() {
                 tint = Color.Black,
                 modifier = Modifier
                     .size(32.dp)
-                    .align(Alignment.Center)
+                    .align(Center)
             )
         }
 

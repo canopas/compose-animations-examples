@@ -92,7 +92,7 @@
       Rotate Two Dots
     </td>
   </tr>
-<table>
+</table>
   
   
 
