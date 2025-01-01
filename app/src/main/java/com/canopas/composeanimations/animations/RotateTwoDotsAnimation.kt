@@ -53,8 +53,8 @@ fun RotateTwoDotsAnimation() {
         )
     )
     val rotation by infiniteTransition.animateFloat(
-        initialValue = 360F,
-        targetValue = 0F,
+        initialValue = 0F,
+        targetValue = 360F,
         animationSpec = infiniteRepeatable(
             animation = tween(1500, easing = FastOutSlowInEasing),
             repeatMode = RepeatMode.Reverse
@@ -78,7 +78,7 @@ fun RotateTwoDotsAnimation() {
 
             })
 
-            val x = (center.x + cos(Math.toRadians(rotation.toDouble())) * 140f).toFloat()
+            val x = (center.x + cos(Math.toRadians(rotation.toDouble())) * 10f).toFloat()
             val y = (center.y + sin(Math.toRadians(rotation.toDouble())) * 140f).toFloat()
 
             withTransform({

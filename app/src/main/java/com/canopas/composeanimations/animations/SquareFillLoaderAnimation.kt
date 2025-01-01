@@ -2,7 +2,6 @@ package com.canopas.composeanimations.animations
 
 import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.animate
-import androidx.compose.animation.core.rememberInfiniteTransition
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.Box
@@ -22,7 +21,7 @@ import com.canopas.composeanimations.ui.theme.ThemeColor
 
 @Preview
 @Composable
-fun previewSquareFillLoaderAnimation() {
+fun PreviewSquareFillLoaderAnimation() {
     Surface(
         modifier = Modifier
             .fillMaxSize(),
@@ -34,8 +33,6 @@ fun previewSquareFillLoaderAnimation() {
 
 @Composable
 fun SquareFillLoaderAnimation() {
-
-    val infiniteTransition = rememberInfiniteTransition()
 
     var rotation by remember {
         mutableStateOf(0f)

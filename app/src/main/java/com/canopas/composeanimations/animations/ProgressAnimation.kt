@@ -39,11 +39,6 @@ fun ProgressAnimation() {
         remember { Animatable(0f) },
     )
 
-    val animationSpec = infiniteRepeatable<Float>(
-        animation = tween(4000, easing = FastOutLinearInEasing),
-        repeatMode = RepeatMode.Restart,
-    )
-
     dots.forEachIndexed { index, animatable ->
         LaunchedEffect(animatable) {
             delay(index * 100L)
@@ -64,7 +59,7 @@ fun ProgressAnimation() {
 
     val dys = dots.map { it.value }
 
-    val travelDistance = with(LocalDensity.current) { 15.dp.toPx() }
+    val travelDistance = with(LocalDensity.current) { 30.dp.toPx() }
 
     Row(
         modifier = Modifier.fillMaxSize(),
